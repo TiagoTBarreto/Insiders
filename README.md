@@ -1,8 +1,7 @@
 # Programa Insiders - Fidelização de Clientes
 
 <p align="center">
-  <img src=![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/7d4c6cdb-e47f-428c-9b8d-596d2deb94a0)
-" width="100%" height="400">
+  <img src="![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/10b4b99f-1a13-4669-afa5-e91d8ea2b07b)" width="100%" height="400">
 </p>
 
 # 1. Problema de Negócio
