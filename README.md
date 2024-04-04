@@ -1,14 +1,11 @@
 # Programa Insiders - Fidelização de Clientes
 
 <p align="center">
-  <img src="![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/10b4b99f-1a13-4669-afa5-e91d8ea2b07b)" width="100%" height="400">
+  <img src="![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/eb3a45a4-914f-4fbe-8861-02da4591e307)
+" width="100%" height="400">
 </p>
-![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/88861d7a-c843-47f2-ae06-98aad97f8384)
 
 
-<p align="center">
-  <img src="![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/10b4b99f-1a13-4669-afa5-e91d8ea2b07b)" width="100%" height="400">
-</p>
 # 1. Problema de Negócio
 Nosso cliente é uma seguradora que oferece Seguro Saúde aos seus clientes, agora eles precisam da construção de um modelo para prever se os segurados (clientes) do ano passado também terão interesse no Seguro Automóvel oferecido pela empresa.
 
