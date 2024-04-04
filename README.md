@@ -18,17 +18,24 @@ Essa segmentação mais refinada permitirá à empresa direcionar suas estratég
 - Estatística.
 
 **Biblioteca de Machine Learning e Otimização:**
-- Scikit-learn: Empregado para a preparação de dados, treinamento de modelos, avaliação de desempenho e validação cruzada.
-- XGBoost: Implementação de algoritmo de aprendizado de máquina Gradient Boosting.
-- Scikit-Optimize com BayesSearchCV: Utilizado para a busca de hiperparâmetros de forma eficiente.
-- ScikitPlot: Utilizada para gerar gráficos informativos no contexto de "Learn to Rank". 
-  
+- Scikit-learn: Empregado para a preparação de dados, treinamento de modelos, avaliação de desempenho.
+- Scipy: Implementação de algoritmo de aprendizado de máquina Gradient Boosting.
+
+**Biblioteca de Clusterização**
+- Yellowbrick: utilizada na plotagem de gráficos de silhueta, juntamente com outras métricas relevantes, facilitando o processo de ajuste fino do modelo de clusterização.
+
+**Espaços de Embedding**
+- UMAP: Utilizado para redução de dimensionalidade e preservação de relações de proximidade.
+- t-SNE: Empregado para visualização de padrões e clusters em espaços de alta dimensionalidade.
+- PCA: Aplicado para redução de dimensionalidade e identificação de principais características.
+- Tree-Based Embedding (Random Forest): Utilizado para representação de dados em um espaço de embedding baseado em árvores de decisão.
+
 **Desenvolvimento e Controle de Versão:**
 - Git: Ferramenta de versionamento de código para rastrear alterações e colaboração em equipe.
 - Pyenv (Ambiente Virtual): Utilizado para isolar dependências e gerenciar versões do Python.
 
 **Implantação e Exposição do Modelo:**
-- Flask: Usado para criar uma API RESTful, permitindo a hospedagem do modelo em produção.
+- 
 
 **Habilidades e Abordagem:**
 - Pensamento Crítico e Resolução de Problemas: Habilidades fundamentais aplicadas para analisar, solucionar problemas e tomar decisões ao longo do projeto.
