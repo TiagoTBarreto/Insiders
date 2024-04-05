@@ -103,43 +103,21 @@ Inicialmente, pode parecer que a condição do carro é o fator determinante par
 
 ![image](https://github.com/TiagoTBarreto/HealthInsurance-CrossSell/assets/137197787/5fe01c43-c5a1-4530-af17-224c160bcb10)
 
-
-## Insights acionáveis:
-**Se o projeto chegasse a esse ponto e não envolvesse a parte de Machine Learning, seria uma recomendação válida entrar em contato com os seguintes grupos de clientes:**
-1. Clientes que já tiveram dano em seus veículos.
-2. Clientes que não tem seguro de carro.
-3. Aqueles com faixa etária entre 35 e 50 anos.
-4. Clientes residentes da região 28.
-
-**E se atentar aos seguintes pontos:**
-- Clientes com carros novos e que são jovens tem pouquíssimo interesse no seguro.
-- Priorizar os métodos de contato 26 e 124.
-- A longevidade do cliente na empresa não é um fator importante.
-
-Essas recomendações vão direcionar as estratégias de contato e vendas para maximizar as chances de sucesso.
-
 # 6. Machine Learning
-- KNN Classifier
-- Random Forest Classifier
-- Logistic Regression
-- XGBoost Classifier
+- KMeans
+- Hierarchical-Clustering
+- Gaussian Mixture Model
+- DBSCAN
 
-**Após uma análise detalhada das métricas utilizando Cross-Validation com 5 splits, o XGBoost destacou-se como o modelo com o melhor desempenho. Diante dessa constatação, optei por avançar para a próxima fase do projeto utilizando este modelo. O valor de K= 9.125 utilizado na validação representa 15% do dataset total.**
+![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/d3b15b8e-13f8-42a6-a5e0-d0c1ad51ddae)
 
-| Models CV            | Precision at k  | Recall at k  | F1-Score at k  |
-|----------------------|------------------|--------------|----------------|
-| XGBoost              | 0.370       | 0.453      | 0.407       |
-| LogisticRegression   | 0.343       | 0.420      | 0.378       |
-| Random Forest        | 0.340       | 0.416      | 0.374       |
-| KNN                 | 0.317       | 0.389      | 0.349       |
+![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/3ebb6e45-b39e-4d08-a75e-f8fe9505d5ee)
 
 
 **Após ajustar o modelo, foi realizado uma validação simulando o ambiente de produção. Os resultados foram os seguintes:**
-| Model       | Precision at k  | Recall at k  | F1-Score at k  |
-|-------------|------------------|--------------|----------------|
-| XGBoost     | 0.374         | 0.458     | 0.412      |
 
-**O valor de K utilizado foi de 11.430, correspondendo a 15% do dataset de validação. Observa-se que o modelo apresentou um bom poder de generalização, indicando que não ocorreu overfitting.**
+
+
 
 ## 6.1 Lift Curve
 
