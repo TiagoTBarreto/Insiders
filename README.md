@@ -103,13 +103,21 @@ O CRIPS-DM é composto pelos seguintes passos:
 
 
 ### 1- Quantos clientes farão parte do grupo?
-Farão parte do grupo Insiders 291, que correspondem a 9.81% dos clientes.
+O grupo Insiders será composto por 291 clientes, que correspondem a 9.81% do total.
 ### 2- Quais as principais características desses clientes?
+Em média esses clientes gastam $14,985
 ### 3- Qual a % de contribuição do faturamento, vinda do Insiders?
-### 4- Quais as condições para uma pessoa ser elegível ao Insiders?
-### 5- Quais as condições para uma pessoa ser removida do Insiders?
-### 6- Qual a garantia que o programa Insiders é melhor que o restante da base?
-### 7- Quais ações o time de marketing pode realizar para aumentar o faturamento?
+O Insiders representa 54.85% do faturamento total da empresa.
+### 4- Quais as condições para uma pessoa ser elegível ou remevida do Insiders?
+Com a utilização do Espaço de Embedding, a explicabilidade do modelo é comprometida, tornando-se mais desafiador identificar as condições específicas para a elegibilidade ou não elegibilidade ao grupo Insiders. 
+### 5- Qual a garantia que o programa Insiders é melhor que o restante da base?
+#### 5.1 Realizando um teste de hipóteses t de Student obtive os seguintes resultados:**
+Estatística t: 23.87315165014179
+Valor p: 2.3117660649450544e-115
+Intervalo de confiança para a média de Elite Insiders: (10525.175701088447, 19445.113783447636)
+Intervalo de confiança para a média de Top Consumers: (3627.134550859041, 4176.814706283817)
+
+### 6- Quais ações o time de marketing pode realizar para aumentar o faturamento?
 # 6. Redução de Dimensionalidade com Espaços de Embedding
 ## 6.1 PCA
 ![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/cd006cb1-fd38-4756-a483-a49aacf8009b)
