@@ -115,7 +115,7 @@ Com a utilização do Espaço de Embedding, a explicabilidade do modelo é compr
 
 |             | Média de Receita | Intervalo de Confiança (99%)    | Valor p              | Interpretação                                                              |
 |-------------|------------------|---------------------------------|----------------------|---------------------------------------------------------------------------|
-| Elite Insiders | 14985.14 | (10525.18, 19445.11) | 2.31e-115 | Rejeitamos a hipótese nula; Média de receita significativamente maior que Top Consumers |
+| Elite Insiders | 14985.14 | (10525.18, 19445.11) | 2.31e-115 | Rejeitamos a hipótese nula; Podemos afirmar com 99.99% de certeza que a Média de receita é significativamente maior que Top Consumers |
 | Top Consumers | 3901.97  | (3627.13, 4176.81)   |                      |                                                                           |
 
 
