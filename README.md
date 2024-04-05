@@ -102,8 +102,16 @@ Inicialmente, pode parecer que a condição do carro é o fator determinante par
 **VERDADEIRO** Pessoas que moram na região 28 tem maior interesse no seguro.
 
 ![image](https://github.com/TiagoTBarreto/HealthInsurance-CrossSell/assets/137197787/5fe01c43-c5a1-4530-af17-224c160bcb10)
+# 6. Espaço de Dados
+## 6.1 PCA
+![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/293d4162-6b2d-4dcf-93c7-50b796dd1c47)
 
-# 6. Machine Learning
+## 6.2 t-SNE
+![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/2f00501e-9e83-4091-bffc-3a6d0bd3be0d)
+
+- UMAP
+- Tree-Based-Embedding
+# 7. Machine Learning
 - KMeans
 - Hierarchical-Clustering
 - Gaussian Mixture Model
