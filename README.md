@@ -109,8 +109,19 @@ Inicialmente, pode parecer que a condição do carro é o fator determinante par
 ## 6.2 t-SNE
 ![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/2f00501e-9e83-4091-bffc-3a6d0bd3be0d)
 
-- UMAP
-- Tree-Based-Embedding
+## 6.3 UMAP
+![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/6341a3a4-43d6-40e5-ab67-525b62a2c6ea)
+
+## 6.4 Tree-Based-Embedding
+### 6.4.1 Feature Selection
+Uma Random Forest composta por 250 árvores foi treinada e apenas as features que demonstraram mais de 1% de importância na separação das folhas foram selecionadas.
+### 6.4.2 Treino
+Posteriormente, o modelo foi novamente treinado utilizando a mesma Random Forest de 250 árvores, porém agora empregando apenas as features selecionadas. Em seguida, foi aplicado o comando "apply" para gerar 250 features adicionais, baseadas nas folhas das árvores.
+### 6.4.3 Redução de Dimensionalidade
+O algoritmo UMAP foi empregado para reduzir a dimensionalidade das 250 features obtidas anteriormente. Após testar diversos valores, a redução que resultou em uma melhor separação dos dados e um aumento na métrica foi de 250 para 10 dimensões. A imagem a seguir representa a combinação de duas dessas 10 dimensões.
+
+![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/ff86467a-12d6-4d1a-be3d-3825716b93f7)
+
 # 7. Machine Learning
 - KMeans
 - Hierarchical-Clustering
