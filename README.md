@@ -75,7 +75,7 @@ O CRIPS-DM é composto pelos seguintes passos:
 
 # 5. Relatório
 ## 5.1 Características dos Clusters
-| Cluster             | Customer_ID | Perc_Customer | Gross_Revenue | Recency_Days | Items_Purchased | Number_Returns | Monetary_Returns | Avg_Ticket |
+| Cluster             | Nº Clientes | Percentual | Receita | Dias da Última Compra | Itens Comprados | Nº Retornos | Valor Monetário Devolução | Ticket Médio |
 |---------------------|-------------|---------------|---------------|--------------|-----------------|----------------|------------------|------------|
 | Elite Insiders      | 291         | 9.81          | 6924.11       | 9.0          | 4428.0          | 3.0            | 67.25            | 494.58     |
 | Top Consumers       | 175         | 5.90          | 3794.52       | 15.0         | 2296.0          | 1.0            | 23.95            | 474.32     |
