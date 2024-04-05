@@ -108,15 +108,17 @@ Inicialmente, pode parecer que a condição do carro é o fator determinante par
 - Hierarchical-Clustering
 - Gaussian Mixture Model
 - DBSCAN
+  
 **A métrica utilizada para comparação dos modelos foi a Silhouette Score.**
+
 ![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/d3b15b8e-13f8-42a6-a5e0-d0c1ad51ddae)
 
 ![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/af4769ba-2475-4261-80a1-7c19cf296811)
 
 ## 6.1 Escolha do Modelo
-**Apesar de o melhor valor de Silhouette ter sido obtido com 14 clusters, optamos por selecionar o valor de 10 clusters. Essa decisão foi tomada para facilitar a ação do time de negócio, reduzindo o número de grupos em 4, enquanto a métrica de Silhouette ainda apresenta uma mudança mínima.**
+Apesar de o melhor valor de Silhouette ter sido obtido com 14 clusters, optamos por selecionar o valor de 10 clusters. Essa decisão foi tomada para facilitar a ação do time de negócio, reduzindo o número de grupos em 4, enquanto a métrica de Silhouette ainda apresenta uma mudança mínima.
 
-**Embora o DBSCAN tenha mostrado melhorias em alguns casos com 10 clusters, ele se revelou inconsistente durante os testes. Isso se deve, em parte, à complexidade dos ajustes necessários para seus parâmetros, como o epsilon e o número mínimo de pontos. Por outro lado, o hierarchical clustering (h-clustering) é mais simples, exigindo apenas um parâmetro para ajuste, então optei por prosseguir com o Hierarchical-Clustering.**
+Embora o DBSCAN tenha mostrado melhorias em alguns casos com 10 clusters, ele se revelou inconsistente durante os testes. Isso se deve, em parte, à complexidade dos ajustes necessários para seus parâmetros, como o epsilon e o número mínimo de pontos. Por outro lado, o hierarchical clustering (h-clustering) é mais simples, exigindo apenas um parâmetro para ajuste, então optei por prosseguir com o Hierarchical-Clustering.
 
 # 7. Tradução e Interpretação
 Considerando que a empresa esteja disposta a se comunicar com possíveis interessados e obtenha um lucro bruto de R$ 600,00 para cada cliente que adquira o seguro de veículo, mas também incorra um custo de R$ 50,00 a cada vez que entra em contato com um potencial cliente, podemos mensurar os seguintes planos de ação:
