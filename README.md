@@ -88,6 +88,19 @@ O CRIPS-DM é composto pelos seguintes passos:
 | Churn Group         | 237         | 7.99          | 383.03        | 85.0         | 150.0           | 1.0            | 3.25             | 191.52     |
 | Hibernating         | 236         | 7.95          | 226.98        | 71.5         | 108.0           | 0.0            | 0.00             | 113.49     |
 
+| Cluster             | Nº Clientes | Percentual | Receita | Dias da Última Compra | Itens Comprados | Nº Retornos | Valor Monetário Devolução | Ticket Médio |
+|---------------------|-------------|------------|---------|-----------------------|-----------------|-------------|---------------------------|--------------|
+| Elite Insiders      | 291         | 9.81       | 14985.14| 21.13                 | 9055.00         | 4.09        | 395.37                    | 775.09       |
+| Top Consumers       | 175         | 5.90       | 3901.97 | 27.13                 | 2325.30         | 1.69        | 80.62                     | 419.70       |
+| Potential           | 365         | 12.30      | 2592.67 | 40.54                 | 1588.74         | 1.31        | 47.52                     | 383.90       |
+| Promising           | 331         | 11.16      | 1799.58 | 44.69                 | 1057.24         | 0.98        | 47.82                     | 343.52       |
+| Sporadic Consumers | 242         | 8.16       | 1409.87 | 49.10                 | 790.42          | 0.76        | 29.32                     | 310.74       |
+| Risky Segment       | 326         | 10.99      | 1070.53 | 61.33                 | 589.20          | 0.78        | 33.21                     | 284.66       |
+| Need Attention      | 252         | 8.49       | 842.95  | 70.87                 | 441.69          | 0.57        | 20.51                     | 259.37       |
+| At Risk             | 512         | 17.26      | 592.36  | 86.88                 | 293.97          | 0.49        | 14.13                     | 220.57       |
+| Churn Group         | 237         | 7.99       | 431.12  | 132.49                | 144.71          | 0.62        | 26.53                     | 231.69       |
+| Hibernating         | 236         | 7.95       | 237.94  | 103.94                | 111.90          | 0.31        | 11.62                     | 97.49        |
+
 
 ### 1- Quantos clientes farão parte do grupo?
 Farão parte do grupo Insiders 291, que correspondem a 9.81% dos clientes.
