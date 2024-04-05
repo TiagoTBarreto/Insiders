@@ -121,7 +121,7 @@ Com a utilização do Espaço de Embedding, a explicabilidade do modelo é compr
 |                     | Média de Receita | Intervalo de Confiança (99%)    | Valor p              | Interpretação                                                             |
 |---------------------|------------------|---------------------------------|----------------------|---------------------------------------------------------------------------|
 | Média de Insiders   | 14985.14         | (10525.18, 19445.11)            | 1.16e-115            | Rejeitamos a hipótese nula; Podemos afirmar com 99.99% de certeza que a média de receita do Insiders é significativamente maior que o resto da base |
-| Média de Resto Base | ---              | (1283.08, 1399.32)              | ---                  |                                                                           |
+| Média de Resto Base | 1341.20              | (1283.08, 1399.32)              | ---                  |                                                                           |
 
 
 ### 6- Quais ações o time de marketing pode realizar para aumentar o faturamento?
