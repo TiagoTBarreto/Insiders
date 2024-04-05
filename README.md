@@ -10,14 +10,14 @@ Diante desse insight, a empresa decidiu agir proativamente, buscando segmentar s
 
 Essa segmentação mais refinada permitirá à empresa direcionar suas estratégias de marketing de forma mais precisa, personalizando as ofertas e experiências para diferentes grupos de clientes. Dessa forma, a Outlet Multimarcas espera fortalecer ainda mais o relacionamento com seus clientes de alto valor e impulsionar o crescimento do negócio.
 ## 1.1 Relatório respondendo as seguintes perguntas:
-- Quem são as pessoas elegíveis para participar do programa de Insiders?
-- Quantos clientes farão parte do grupo?
-- Quais as principais características desses clientes?
-- Qual a % de contribuição do faturamento, vinda do Insiders?
-- Quais as condições para uma pessoa ser elegível ao Insiders?
-- Quais as condições para uma pessoa ser removida do Insiders?
-- Qual a garantia que o programa Insiders é melhor que o restante da base?
-- Quais ações o time de marketing pode realizar para aumentar o faturamento?
+1- Quem são as pessoas elegíveis para participar do programa de Insiders?
+2- Quantos clientes farão parte do grupo?
+3- Quais as principais características desses clientes?
+4- Qual a % de contribuição do faturamento, vinda do Insiders?
+5- Quais as condições para uma pessoa ser elegível ao Insiders?
+6- Quais as condições para uma pessoa ser removida do Insiders?
+7- Qual a garantia que o programa Insiders é melhor que o restante da base?
+8- Quais ações o time de marketing pode realizar para aumentar o faturamento?
 
 # 2. Ferramentas Utilizadas
 
@@ -73,35 +73,30 @@ Foi empregado o método de gerenciamento CRIPS-DM, que tem como objetivo o desen
 O CRIPS-DM é composto pelos seguintes passos: 
 ![image](https://github.com/TiagoTBarreto/Rossmann_Sales/assets/137197787/f4cac96f-a228-4e28-b5a2-eb16f29d5a39)
 
-# 5. Top Insights
-### H1. Clientes que já tiveram seu veículo danificado podem ter maior interesse em adquirir o seguro de veículo.  
-**VERDADEIRO** A ocorrência de incidentes anteriores exerce uma influência significativa no aumento do interesse pelo seguro automotivo.
+# 5. Relatório
+## 5.1 Características dos Clusters
+| Cluster             | Customer_ID | Perc_Customer | Gross_Revenue | Recency_Days | Items_Purchased | Number_Returns | Monetary_Returns | Avg_Ticket |
+|---------------------|-------------|---------------|---------------|--------------|-----------------|----------------|------------------|------------|
+| Elite Insiders      | 291         | 9.81          | 6924.11       | 9.0          | 4428.0          | 3.0            | 67.25            | 494.58     |
+| Top Consumers       | 175         | 5.90          | 3794.52       | 15.0         | 2296.0          | 1.0            | 23.95            | 474.32     |
+| Potential           | 365         | 12.30         | 2527.92       | 24.0         | 1575.0          | 1.0            | 11.25            | 421.32     |
+| Promising           | 331         | 11.16         | 1735.18       | 26.0         | 1040.0          | 1.0            | 2.55             | 347.04     |
+| Sporadic Consumers | 242         | 8.16          | 1334.52       | 28.0         | 791.0           | 0.0            | 0.00             | 333.63     |
+| Risky Segment       | 326         | 10.99         | 1047.53       | 35.5         | 587.5           | 0.0            | 0.00             | 349.18     |
+| Need Attention      | 252         | 8.49          | 789.90        | 44.0         | 440.5           | 0.0            | 0.00             | 263.30     |
+| At Risk             | 512         | 17.26         | 570.66        | 56.0         | 292.0           | 0.0            | 0.00             | 285.33     |
+| Churn Group         | 237         | 7.99          | 383.03        | 85.0         | 150.0           | 1.0            | 3.25             | 191.52     |
+| Hibernating         | 236         | 7.95          | 226.98        | 71.5         | 108.0           | 0.0            | 0.00             | 113.49     |
 
-![image](https://github.com/TiagoTBarreto/HealthInsurance-CrossSell/assets/137197787/f5f9b812-1e41-4fdf-88f8-116e93aa5a25)
 
-### H2. A idade pode ser um fator diferencial, com clientes mais jovens tendo menos interesse.
-**VERDADEIRO** Clientes com idade entre 35 e 50 são os mais interessados, jovens realmente tem pouco interesse.
-
-![image](https://github.com/TiagoTBarreto/HealthInsurance-CrossSell/assets/137197787/994bd526-2bd2-4938-bc98-dfce2388a672)
-
-### H3. Clientes com carros novos podem ter maior interesse em aderir ao seguro de carro.
-**FALSO** Clientes com carros mais velhos e usados tem maior interesse.
-
-![image](https://github.com/TiagoTBarreto/HealthInsurance-CrossSell/assets/137197787/84aea930-9456-4d4f-b32a-1cd62e53cf39)
-
-Inicialmente, pode parecer que a condição do carro é o fator determinante para o interesse, no entanto, na realidade, a idade das pessoas é o principal influenciador por trás desse comportamento.
-
-![image](https://github.com/TiagoTBarreto/HealthInsurance-CrossSell/assets/137197787/46bf7be0-9e9e-4735-9c90-a19bd18ebb25)
-
-### H4. Diferentes métodos de contato podem impactar o interesse na apólice.
-**VERDADEIRO** Os métodos de contato 26.0 e 124.0 apresentam a maior taxa de conversão de clientes interessados na apólice de veículo.
-
-![image](https://github.com/TiagoTBarreto/HealthInsurance-CrossSell/assets/137197787/edb225e4-a02f-4e2a-ae2d-969f348cb07b)
-
-### H5. Clientes que moram em regiões específicas podem ter maior interesse no seguro.
-**VERDADEIRO** Pessoas que moram na região 28 tem maior interesse no seguro.
-
-![image](https://github.com/TiagoTBarreto/HealthInsurance-CrossSell/assets/137197787/5fe01c43-c5a1-4530-af17-224c160bcb10)
+### 1- Quantos clientes farão parte do grupo?
+Farão parte do grupo Insiders 291, que correspondem a 9.81% dos clientes.
+### 2- Quais as principais características desses clientes?
+### 3- Qual a % de contribuição do faturamento, vinda do Insiders?
+### 4- Quais as condições para uma pessoa ser elegível ao Insiders?
+### 5- Quais as condições para uma pessoa ser removida do Insiders?
+### 6- Qual a garantia que o programa Insiders é melhor que o restante da base?
+### 7- Quais ações o time de marketing pode realizar para aumentar o faturamento?
 # 6. Redução de Dimensionalidade com Espaços de Embedding
 ## 6.1 PCA
 ![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/cd006cb1-fd38-4756-a483-a49aacf8009b)
