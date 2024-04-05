@@ -142,6 +142,17 @@ Apesar de o melhor valor de Silhouette ter sido obtido com 14 clusters, optamos 
 
 Embora o DBSCAN tenha mostrado melhorias em alguns casos com 10 clusters, ele se revelou inconsistente durante os testes. Isso se deve, em parte, à complexidade dos ajustes necessários para seus parâmetros, como o epsilon e o número mínimo de pontos. Por outro lado, o H-Clustering é mais simples, exigindo apenas um parâmetro para ajuste, então optei por prosseguir com o **Hierarchical-Clustering**.
 
+## 7.3 Análise do Modelo Final
+### 7.3.1 Análise de Silhoueta
+Podemos observar que, apesar de alguns clusters apresentarem um formato de "faca", indicando uma proximidade entre eles, a maioria dos clusters ainda obteve uma boa pontuação de silhueta. 
+
+![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/1f6a53e7-edb1-4aa5-9f7d-18a11a67b9ae)
+
+### 7.3.2 Espaço de Dados
+Ao utilizar as mesmas dimensões selecionadas para comparação anterior do Espaço de Embedding, é possível observar uma excelente separação dos clusters.
+
+![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/62b9522e-7357-43dc-9b26-9b4e94d0ff08)
+
 # 7. Tradução e Interpretação
 Considerando que a empresa esteja disposta a se comunicar com possíveis interessados e obtenha um lucro bruto de R$ 600,00 para cada cliente que adquira o seguro de veículo, mas também incorra um custo de R$ 50,00 a cada vez que entra em contato com um potencial cliente, podemos mensurar os seguintes planos de ação:
 
