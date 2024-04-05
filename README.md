@@ -9,7 +9,16 @@ Outlet Multimarcas é uma empresa de e-commerce que se destaca pela venda de pro
 Diante desse insight, a empresa decidiu agir proativamente, buscando segmentar seus clientes com base nesses padrões de consumo. O objetivo é criar um programa de fidelidade, nomeado de "Insiders", para atender às necessidades específicas desses clientes mais engajados.
 
 Essa segmentação mais refinada permitirá à empresa direcionar suas estratégias de marketing de forma mais precisa, personalizando as ofertas e experiências para diferentes grupos de clientes. Dessa forma, a Outlet Multimarcas espera fortalecer ainda mais o relacionamento com seus clientes de alto valor e impulsionar o crescimento do negócio.
- 
+## 1.1 Relatório respondendo as seguintes perguntas:
+- Quem são as pessoas elegíveis para participar do programa de Insiders?
+- Quantos clientes farão parte do grupo?
+- Quais as principais características desses clientes?
+- Qual a % de contribuição do faturamento, vinda do Insiders?
+- Quais as condições para uma pessoa ser elegível ao Insiders?
+- Quais as condições para uma pessoa ser removida do Insiders?
+- Qual a garantia que o programa Insiders é melhor que o restante da base?
+- Quais ações o time de marketing pode realizar para aumentar o faturamento?
+
 # 2. Ferramentas Utilizadas
 
 **Ferramentas para Análise de Dados**
