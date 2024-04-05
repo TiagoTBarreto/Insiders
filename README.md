@@ -10,7 +10,6 @@ Diante desse insight, a empresa decidiu agir proativamente, buscando segmentar s
 
 Essa segmentação mais refinada permitirá à empresa direcionar suas estratégias de marketing de forma mais precisa, personalizando as ofertas e experiências para diferentes grupos de clientes. Dessa forma, a Outlet Multimarcas espera fortalecer ainda mais o relacionamento com seus clientes de alto valor e impulsionar o crescimento do negócio.
  
-
 # 2. Ferramentas Utilizadas
 
 **Ferramentas para Análise de Dados**
@@ -19,9 +18,9 @@ Essa segmentação mais refinada permitirá à empresa direcionar suas estratég
 
 **Biblioteca de Machine Learning e Otimização:**
 - Scikit-learn: Empregado para a preparação de dados, treinamento de modelos, avaliação de desempenho.
-- Scipy: Implementação de algoritmo de aprendizado de máquina Gradient Boosting.
+- Scipy: Implementação de algoritmos de Clusterização.
 
-**Biblioteca de Clusterização**
+**Biblioteca de Avaliação Clusterização**
 - Yellowbrick: utilizada na plotagem de gráficos de silhueta, juntamente com outras métricas relevantes, facilitando o processo de ajuste fino do modelo de clusterização.
 
 **Espaços de Embedding**
@@ -35,26 +34,26 @@ Essa segmentação mais refinada permitirá à empresa direcionar suas estratég
 - Pyenv (Ambiente Virtual): Utilizado para isolar dependências e gerenciar versões do Python.
 
 **Implantação e Exposição do Modelo:**
-- 
+- Papermill: Automatiza a execução e personalização do Jupyter Notebook.
+- Cronjob: Agenda tarefas para manter o modelo atualizado e em execução regularmente.
+- Amazon S3: Armazenamento do conjuntos de dados, modelos e artefatos importantes de forma segura e escalável.
+- Amazon RDS (Postgres): Banco de dados relacional onde foi guardado o output do modelo.
+- Amazon EC2: Hospeda e executa a aplicação do modelo na nuvem.
 
 **Habilidades e Abordagem:**
 - Pensamento Crítico e Resolução de Problemas: Habilidades fundamentais aplicadas para analisar, solucionar problemas e tomar decisões ao longo do projeto.
 
 # 3. Descrição dos Dados 
-| Campo                  | Descrição                                                                           |
-|------------------------|-------------------------------------------------------------------------------------|
-| ID                     | Identificador único do cliente.                                                   |
-| Gênero                 | Gênero do cliente.                                                                 |
-| Idade                  | Idade do cliente.                                                                  |
-| Carteira de Motorista  | 0: O cliente não possui CNH, 1: O cliente já possui CNH.                             |
-| Código de Região       | Código único para a região do cliente.                                            |
-| Já Segurado Antes      | 1: O cliente já possui Seguro de Veículo, 0: O cliente não possui Seguro de Veículo. |
-| Idade do Veículo       | Idade do veículo.                                                                  |
-| Danos no Veículo       | 1: O cliente teve seu veículo danificado no passado, 0: O cliente não teve seu veículo danificado no passado. |
-| Prêmio Anual           | O valor que o cliente precisa pagar como prêmio durante o ano.                    |
-| Canal de Vendas da Apólice | Código anonimizado para o canal de contato com o cliente, ou seja, diferentes agentes, por correio, por telefone, pessoalmente, etc. |
-| Tempo de Associação    | Número de dias que o cliente está associado à empresa.                            |
-| Resposta               | 1: O cliente está interessado, 0: O cliente não está interessado.                   |
+| Campo        | Descrição                                                                    |
+|--------------|------------------------------------------------------------------------------|
+| InvoiceNo    | Número de identificação único da compra.                                      |
+| StockCode    | Código único do item no estoque.                                              |
+| Description  | Descrição do item.                                                            |
+| Quantity     | Quantidade do item.                                        |
+| InvoiceDate  | Data da compra.                                                               |
+| UnitPrice    | Preço unitário do item.                                                       |
+| CustomerID   | Identificador único do cliente.                                               |
+| Country      | País do cliente.                                                              |
  
 # 4. Descrição da solução
 Foi empregado o método de gerenciamento CRIPS-DM, que tem como objetivo o desenvolvimento de projetos de Data Science de forma cíclica. Esse método é abrangente e, ao concluir um ciclo, você obterá:
