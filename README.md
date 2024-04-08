@@ -10,14 +10,14 @@ Diante desse insight, a empresa decidiu agir proativamente, buscando segmentar s
 
 Essa segmentação mais refinada permitirá à empresa direcionar suas estratégias de marketing de forma mais precisa, personalizando as ofertas e experiências para diferentes grupos de clientes. Dessa forma, a Outlet Multimarcas espera fortalecer ainda mais o relacionamento com seus clientes de alto valor e impulsionar o crescimento do negócio.
 ## 1.1 Relatório respondendo as seguintes perguntas:
-1- Quem são as pessoas elegíveis para participar do programa de Insiders?
-2- Quantos clientes farão parte do grupo?
-3- Quais as principais características desses clientes?
-4- Qual a % de contribuição do faturamento, vinda do Insiders?
-5- Quais as condições para uma pessoa ser elegível ao Insiders?
-6- Quais as condições para uma pessoa ser removida do Insiders?
-7- Qual a garantia que o programa Insiders é melhor que o restante da base?
-8- Quais ações o time de marketing pode realizar para aumentar o faturamento?
+1. Quem são as pessoas elegíveis para participar do programa de Insiders?
+2. Quantos clientes farão parte do grupo?
+3. Quais as principais características desses clientes?
+4. Qual a % de contribuição do faturamento, vinda do Insiders?
+5. Quais as condições para uma pessoa ser elegível ao Insiders?
+6. Quais as condições para uma pessoa ser removida do Insiders?
+7. Qual a garantia que o programa Insiders é melhor que o restante da base?
+8. Quais ações o time de marketing pode realizar para aumentar o faturamento?
 
 # 2. Ferramentas Utilizadas
 
