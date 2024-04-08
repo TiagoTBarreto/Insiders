@@ -93,7 +93,8 @@ Com a utilização do Espaço de Embedding, a explicabilidade do modelo é compr
 | Top Consumers    | 3901.97 | Receita | (3693.69, 4110.25)           |   ---        |        ---        |
 | Elite Insiders   | ---| Ticket Medio| (739.98, 957.97)                    | 6.96e-05      | Rejeitamos a hipótese nula; Podemos afirmar com 99.99% de certeza que a média de Ticket Medio do Insiders é significativamente maior que Top Consumers |
 | Top Consumers    | --- | Ticket Medio| (493.68, 621.43)                    |   ---     | --- |
-
+| Elite Insiders   | 21.13   | Dias da Ultima Compra| (16.70, 25.56)                      | 0.0456        | Rejeitamos a hipótese nula; Podemos afirmar com 95% de confiança que a média de Recência do Insiders é significativamente menor do que o Top Consumers |
+| Top Consumers    | 27.13   | Dias da Ultima Compra| (21.99, 32.27)                      |               |                |
 
 | Grupo              | Média   | Variável | Intervalo de Confiança (95%) | Valor p   | Interpretação                                                             |
 |---------------------|---------|----------|------------------------------|-----------|---------------------------------------------------------------------------|
@@ -101,7 +102,8 @@ Com a utilização do Espaço de Embedding, a explicabilidade do modelo é compr
 | Resto da Base     | 1341.20 | Receita | (1296.99, 1385.41)           | ---       |                                                                           |
 | Elite Insiders   | ---| Ticket Medio| (739.98, 957.97)                    | 5.18e-97      | Rejeitamos a hipótese nula; Podemos afirmar com 99.99% de certeza que a média de Ticket Medio do Insiders é significativamente maior que o resto da base |
 | Resto da Base    | --- | Ticket Medio| (328.56, 347.84)                    |   ---     | --- |
-
+| Elite Insiders   | 21.13   | Dias da Ultima Compra| (16.70, 25.56)                      |4.61e-24       | Rejeitamos a hipótese nula; Podemos afirmar com 99,99% de confiança que a média de Recência do Insiders é significativamente menor do que o resto da base |
+| Resto da Base     | 68.94   | Dias da Ultima Compra| (65.93, 71.95)                      |               |                |
 
 ### 6- Quais ações o time de marketing pode realizar para aumentar o faturamento?
 # 6. Redução de Dimensionalidade com Espaços de Embedding
