@@ -161,7 +161,7 @@ Nas imagens é possível observar claramente como o método Tree-Based-Embedding
 ![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/af4769ba-2475-4261-80a1-7c19cf296811)
 
 ## 7.2 Escolha do Modelo
-Apesar de o melhor valor de Silhouette ter sido obtido com 14 clusters, optamos por selecionar o valor de **10 clusters**. Essa decisão foi tomada para facilitar a ação do time de negócio, reduzindo o número de grupos em 4, enquanto a métrica de Silhouette ainda apresenta uma mudança mínima.
+Apesar de o melhor valor de Silhouette ter sido obtido com 14 clusters, optei por selecionar o valor de **10 clusters**. Essa decisão foi tomada para facilitar a ação do time de negócio, reduzindo o número de grupos em 4, enquanto a métrica de Silhouette apresentou uma redução mínima.
 
 Embora o DBSCAN tenha mostrado melhorias em alguns casos com 10 clusters, ele se revelou inconsistente durante os testes. Isso se deve, em parte, à complexidade dos ajustes necessários para seus parâmetros, como o epsilon e o número mínimo de pontos. Por outro lado, o H-Clustering é mais simples, exigindo apenas um parâmetro para ajuste, então optei por prosseguir com o **Hierarchical-Clustering**.
 
