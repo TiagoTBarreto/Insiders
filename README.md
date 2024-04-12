@@ -93,11 +93,9 @@ Com a utilização do Espaço de Embedding, a explicabilidade do modelo é compr
 - Interpretação: O valor-p extremamente baixo indica evidências fortes para rejeitar a hipótese nula de que as duas amostras vêm da mesma distribuição, sugerindo que há diferenças estatisticamente significativas entre os grupos.
   
 **Intervalos de Confiança:**
-
-- Intervalo de Confiança para a Média de Insiders: (11599.73, 18370.56)
-- Interpretação: Com 95% de confiança, a média de insiders está entre 11599.73 e 18370.56.
-- Intervalo de Confiança para a Média de Top Consumers: (3693.69, 4110.26)
-- Interpretação: Com 95% de confiança, a média de top consumers está entre 3693.69 e 4110.26.
+- Com 95% de confiança, a média de insiders está entre 11599.73 e 18370.56.
+- Com 95% de confiança, a média de top consumers está entre 3693.69 e 4110.26.
+  
 ### 6- Quais ações o time de marketing pode realizar para aumentar o faturamento?
 # 6. Redução de Dimensionalidade com Espaços de Embedding
 ## 6.1 PCA
