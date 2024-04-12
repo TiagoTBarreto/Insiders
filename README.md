@@ -200,6 +200,23 @@ Enfrentei uma grande dificuldade em reduzir o erro médio individual, então opt
 # 8. O produto final do projeto
 Montei uma infraestrutura utilizando serviços AWS:
 ![infra](https://github.com/TiagoTBarreto/Insiders/assets/137197787/eeb89d1c-9e56-4d65-a376-473f823e2f2f)
+### 8.1 Armazenamento de Artefatos e Dados:
+- O notebook salva os artefatos, como o modelo treinado, transformações no Amazon S3.
+- Os conjuntos de dados também são armazenados no Amazon S3 para fácil acesso.
 
+### 8.2 Controle de Versão e Colaboração:
+- O código do projeto é mantido no GitHub, garantindo controle de versão, colaboração eficiente e rastreabilidade das alterações ao longo do tempo.
+
+### 8.3 Processamento Automatizado na EC2:
+- Uma instância EC2 é configurada para clonar o repositório do GitHub contendo o notebook.
+- Um Cronjob scheduler é usado para automatizar a execução periódica do notebook na instância EC2.
+### 8.4 Integração de Dados e Resultados:
+- A instância EC2 lê os conjuntos de dados do Amazon S3 durante a execução do notebook.
+- Os resultados finais, como métricas de desempenho do modelo ou resultados analíticos, são armazenados no Banco de Dados Postgres.
+### 8.5 Papermill para Rastreabilidade:
+- Utilizei o Papermill para executar o notebook de forma programática e guardar as execuções como registros.
+- O Papermill gera uma cópia do notebook após cada execução, permitindo acompanhar as iterações e revisar os resultados anteriores conforme necessário.
+### 8.6 Alimentação do Dashboard:
+- O Banco de Dados Postgres sustenta um Dashboard, fornecendo informações atualizadas e insights em tempo real para os usuários.
 
 
