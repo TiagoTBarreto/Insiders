@@ -29,7 +29,7 @@ Essa segmentação mais refinada permitirá à empresa direcionar suas estratég
 **Biblioteca de Machine Learning e Otimização:**
 - Scikit-learn: Empregado para a preparação de dados, treinamento de modelos, avaliação de desempenho.
 - Scipy: Implementação de algoritmos de Clusterização.
-
+- Tensorflow: Implementação de Rede Neural para Time Series.
 **Biblioteca de Avaliação Clusterização**
 - Yellowbrick: utilizada na plotagem de gráficos de silhueta, juntamente com outras métricas relevantes, facilitando o processo de ajuste fino do modelo de clusterização.
 
