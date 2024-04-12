@@ -75,19 +75,17 @@ O CRIPS-DM é composto pelos seguintes passos:
 ![image](https://github.com/TiagoTBarreto/Rossmann_Sales/assets/137197787/f4cac96f-a228-4e28-b5a2-eb16f29d5a39)
 
 # 5. Relatório
-## 5.1 Características dos Clusters
-
-### 1- Quantos clientes farão parte do grupo?
+## 1- Quantos clientes farão parte do grupo?
 O grupo Insiders será composto por 291 clientes, que correspondem a 9.81% do total.
-### 2- Quais as principais características desses clientes?
+## 2- Quais as principais características desses clientes?
 Em média esses clientes gastam $14,985
-### 3- Qual a % de contribuição do faturamento, vinda do Insiders?
+## 3- Qual a % de contribuição do faturamento, vinda do Insiders?
 O Insiders representa 54.85% do faturamento total da empresa.
-### 4- Quais as condições para uma pessoa ser elegível ou remevida do Insiders?
+## 4- Quais as condições para uma pessoa ser elegível ou remevida do Insiders?
 Com a utilização do Espaço de Embedding, a explicabilidade do modelo é comprometida, tornando-se mais desafiador identificar as condições específicas para a elegibilidade ou não elegibilidade ao grupo Insiders. 
-### 5- Qual a garantia que o programa Insiders é melhor que o restante da base?
-#### 5.1 Ao checar a distribuição das variáveis através do teste de shapiro nenhuma apresentava distribuição normal, então optei por utilizar o teste de Mann-Whitney U e comparar o Insiders com o segundo melhor grupo Top Consumers e obtive os seguintes resultados:
-#### 5.1.1 Métrica Receita:
+## 5- Qual a garantia que o programa Insiders é melhor que o restante da base?
+### 5.1 Ao checar a distribuição das variáveis através do teste de shapiro nenhuma apresentava distribuição normal, então optei por utilizar o teste de Mann-Whitney U e comparar o Insiders com o segundo melhor grupo Top Consumers e obtive os seguintes resultados:
+### 5.1.1 Métrica Receita:
 **Resultados do Teste de Mann-Whitney U:**
 
 - Estatística Mann-Whitney U: 43987.0
