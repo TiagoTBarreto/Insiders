@@ -24,7 +24,7 @@ Essa segmentação mais refinada permitirá à empresa direcionar suas estratég
 
 **Ferramentas para Análise de Dados**
 - Python 3.11.4: A linguagem de programação principal usada para desenvolver o projeto.
-- Estatística.
+- Estatística (Descritiva, Teste de Hipóteses e Intervalo de Confiança)
 
 **Biblioteca de Machine Learning e Otimização:**
 - Scikit-learn: Empregado para a preparação de dados, treinamento de modelos, avaliação de desempenho.
@@ -78,7 +78,18 @@ O CRIPS-DM é composto pelos seguintes passos:
 ## 1- Quantos clientes farão parte do grupo?
 O grupo Insiders será composto por 291 clientes, que correspondem a 9.81% do total.
 ## 2- Quais as principais características desses clientes?
-Em média esses clientes gastam $14,985
+### 2.1- Na média:
+- Receita: $14,985
+- Última Compra: 21 dias atrás
+- Itens Comprados: 9,055
+- Ordens de Retorno: 4
+- Ticket Médio: $775
+### 2.2- Na mediana:
+- Receita: $6,924
+- Última Compra: 9 dias atrás
+- Itens Comprados: 4428
+- Ordens de Retorno: 3
+- Ticket Médio: $494.58
 ## 3- Qual a % de contribuição do faturamento, vinda do Insiders?
 O Insiders representa 54.85% do faturamento total da empresa.
 ## 4- Quais as condições para uma pessoa ser elegível ou remevida do Insiders?
@@ -119,7 +130,21 @@ Com a utilização do Espaço de Embedding, a explicabilidade do modelo é compr
 - Com 95% de confiança, a média de top consumers está entre 21.99 e 32.27.
   
   
-### 6- Quais ações o time de marketing pode realizar para aumentar o faturamento?
+### 6- Qual a perspectiva de faturamento do grupo?
+##### Após explorar várias abordagens para prever séries temporais, incluindo modelos como ARIMA, SARIMA e até mesmo técnicas de AutoML, enfrentei desafios significativos na redução do erro médio. Apesar disso, um modelo de rede neural de 7 camadas destacou-se como o mais promissor.
+
+Com um conjunto de dados de um ano, onde reservei 11 meses para treinamento e validação e 1 mês para testes, os resultados foram os seguintes:
+
+-Soma das previsões no 1º mês de teste: $460,855.1
+-Soma dos valores reais no 1º mês de teste: $525,803.19
+- Diferença percentual entre previsão e valor real: 12.35% menor que o valor real.
+
+Diante dessa dificuldade em reduzir o erro médio individual, optei por focar na minimização do erro total acumulado. Com isso, determinei um intervalo de faturamento para o próximo mês proveniente dos Insiders, levando em consideração o erro observado:
+
+- Previsão de faturamento para o próximo mês: $521,493.0
+- Intervalo: Entre $457,077.30 e $585,908.69.
+
+
 # 6. Redução de Dimensionalidade com Espaços de Embedding
 ## 6.1 PCA
 ![image](https://github.com/TiagoTBarreto/Insiders/assets/137197787/cd006cb1-fd38-4756-a483-a49aacf8009b)
