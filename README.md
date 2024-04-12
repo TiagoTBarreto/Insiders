@@ -182,8 +182,8 @@ Com a utilização do Espaço de Embedding, a explicabilidade do modelo é compr
 - Com 95% de confiança, a média de top consumers está entre 21.99 e 32.27.
   
   
-### 6- Qual a perspectiva de faturamento do grupo?
-##### Após explorar várias abordagens para prever séries temporais, incluindo modelos como ARIMA, SARIMA e até mesmo técnicas de AutoML, enfrentei desafios significativos na redução do erro médio. Apesar disso, um modelo de rede neural de 7 camadas destacou-se como o mais promissor.
+## 6- Qual a perspectiva de faturamento do grupo?
+### Após explorar várias abordagens para prever séries temporais, incluindo modelos como ARIMA, SARIMA e até mesmo técnicas de AutoML, enfrentei desafios significativos na redução do erro médio. Apesar disso, um modelo de rede neural de 7 camadas destacou-se como o mais promissor.
 
 Com um conjunto de dados de um ano, onde reservei 11 meses para treinamento e validação e 1 mês para testes, os resultados foram os seguintes:
 
