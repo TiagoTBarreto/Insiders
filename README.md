@@ -160,7 +160,7 @@ Após verificar a distribuição das variáveis utilizando o teste de Shapiro, c
 - Com 95% de confiança, a média de insiders está entre 11599.73 e 18370.56.
 - Com 95% de confiança, a média de top consumers está entre 3693.69 e 4110.26.
   
-#### 5.1.2 Métrica Ticket Médio:
+#### 5.1.1 Métrica Ticket Médio:
 **Resultados do Teste de Mann-Whitney U:**
 
 - Estatística Mann-Whitney U: 31261.0
