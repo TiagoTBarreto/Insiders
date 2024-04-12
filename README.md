@@ -87,7 +87,7 @@ O Insiders representa 54.85% do faturamento total da empresa.
 Com a utilização do Espaço de Embedding, a explicabilidade do modelo é comprometida, tornando-se mais desafiador identificar as condições específicas para a elegibilidade ou não elegibilidade ao grupo Insiders. 
 ### 5- Qual a garantia que o programa Insiders é melhor que o restante da base?
 #### 5.1 Ao checar a distribuição das variáveis através do teste de shapiro nenhuma apresentava distribuição normal, então optei por utilizar o teste de Mann-Whitney U e comparar o Insiders com o segundo melhor grupo Top Consumers e obtive os seguintes resultados:
-##### 5.1.1 Métrica Receita:
+#### 5.1.1 Métrica Receita:
 **Resultados do Teste de Mann-Whitney U:**
 
 - Estatística Mann-Whitney U: 43987.0
