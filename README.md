@@ -147,8 +147,9 @@ O Insiders representa 54.85% do faturamento total da empresa.
 ## 4- Quais as condições para uma pessoa ser elegível ou remevida do Insiders?
 Com a utilização do Espaço de Embedding, a explicabilidade do modelo é comprometida, tornando-se mais desafiador identificar as condições específicas para a elegibilidade ou não elegibilidade ao grupo Insiders. 
 ## 5- Qual a garantia que o programa Insiders é melhor que o restante da base?
-### 5.1 Ao checar a distribuição das variáveis através do teste de shapiro nenhuma apresentava distribuição normal, então optei por utilizar o teste de Mann-Whitney U e comparar o Insiders com o segundo melhor grupo Top Consumers e obtive os seguintes resultados:
-### 5.1.1 Métrica Receita:
+### 5.1 Definição do tipo de Teste Estatístico
+Após verificar a distribuição das variáveis utilizando o teste de Shapiro, constatei que nenhuma delas apresentava distribuição normal. Diante disso, optei por utilizar o teste de Mann-Whitney U para comparar o grupo de Insiders com o segundo melhor grupo, Top Consumers.
+#### 5.1.2 Métrica Receita:
 **Resultados do Teste de Mann-Whitney U:**
 
 - Estatística Mann-Whitney U: 43987.0
@@ -159,7 +160,7 @@ Com a utilização do Espaço de Embedding, a explicabilidade do modelo é compr
 - Com 95% de confiança, a média de insiders está entre 11599.73 e 18370.56.
 - Com 95% de confiança, a média de top consumers está entre 3693.69 e 4110.26.
   
-### 5.1.2 Métrica Ticket Médio:
+#### 5.1.2 Métrica Ticket Médio:
 **Resultados do Teste de Mann-Whitney U:**
 
 - Estatística Mann-Whitney U: 31261.0
@@ -170,7 +171,7 @@ Com a utilização do Espaço de Embedding, a explicabilidade do modelo é compr
 - Com 95% de confiança, a média de insiders está entre 739.98 e 957.97.
 - Com 95% de confiança, a média de top consumers está entre 493.68 e 621.43.
 
-### 5.1.3 Métrica Dias da Última Compra:
+#### 5.1.3 Métrica Dias da Última Compra:
 **Resultados do Teste de Mann-Whitney U:**
 
 - Estatística Mann-Whitney U: 20638.0
