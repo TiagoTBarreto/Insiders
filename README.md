@@ -96,6 +96,29 @@ Com a utilização do Espaço de Embedding, a explicabilidade do modelo é compr
 - Com 95% de confiança, a média de insiders está entre 11599.73 e 18370.56.
 - Com 95% de confiança, a média de top consumers está entre 3693.69 e 4110.26.
   
+### 5.1.2 Métrica Ticket Médio:
+**Resultados do Teste de Mann-Whitney U:**
+
+- Estatística Mann-Whitney U: 31261.0
+- Valor p: 3.81e-05 (p < 0.05)
+- Interpretação: O valor-p extremamente baixo indica evidências fortes para rejeitar a hipótese nula de que as duas amostras vêm da mesma distribuição, sugerindo que há diferenças estatisticamente significativas entre os grupos.
+  
+**Intervalos de Confiança:**
+- Com 95% de confiança, a média de insiders está entre 739.98 e 957.97.
+- Com 95% de confiança, a média de top consumers está entre 493.68 e 621.43.
+
+### 5.1.3 Métrica Dias da Última Compra:
+**Resultados do Teste de Mann-Whitney U:**
+
+- Estatística Mann-Whitney U: 20638.0
+- Valor p: 6.03e-04 (p < 0.05)
+- Interpretação: O valor-p extremamente baixo indica evidências fortes para rejeitar a hipótese nula de que as duas amostras vêm da mesma distribuição, sugerindo que há diferenças estatisticamente significativas entre os grupos.
+  
+**Intervalos de Confiança:**
+- Com 95% de confiança, a média de insiders está entre 16.70 e 25.56.
+- Com 95% de confiança, a média de top consumers está entre 21.99 e 32.27.
+  
+  
 ### 6- Quais ações o time de marketing pode realizar para aumentar o faturamento?
 # 6. Redução de Dimensionalidade com Espaços de Embedding
 ## 6.1 PCA
