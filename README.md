@@ -143,7 +143,7 @@ O grupo Insiders será composto por 291 clientes, que correspondem a 9.81% do to
 - Ordens de Retorno: 3
 - Ticket Médio: $494.58
 ## 3- Qual a % de contribuição do faturamento, vinda do Insiders?
-O Insiders representa 54.85% do faturamento total da empresa.
+O Insiders representa 54.85% do faturamento total e 56.33% do volume de itens comprados na empresa.
 ## 4- Quais as condições para uma pessoa ser elegível ou remevida do Insiders?
 Com a utilização do Espaço de Embedding, a explicabilidade do modelo é comprometida, tornando-se mais desafiador identificar as condições específicas para a elegibilidade ou não elegibilidade ao grupo Insiders. 
 ## 5- Qual a garantia que o programa Insiders é melhor que o restante da base?
@@ -197,49 +197,9 @@ Enfrentei uma grande dificuldade em reduzir o erro médio individual, então opt
 - Previsão de faturamento para o próximo mês: $521,493.0
 - Intervalo: Entre $457,077.30 e $585,908.69.
 
-
-
-
-
-
-# 7. Tradução e Interpretação
-Considerando que a empresa esteja disposta a se comunicar com possíveis interessados e obtenha um lucro bruto de R$ 600,00 para cada cliente que adquira o seguro de veículo, mas também incorra um custo de R$ 50,00 a cada vez que entra em contato com um potencial cliente, podemos mensurar os seguintes planos de ação:
-
-**Plano de Ação 1 - Entrar em contato somente com pessoas que não tem seguro de veículo.**
-- Lucro ao entrar em contato com 68.595 clientes (54% da base): R$ 5.871.610,00
-- Lucro ao entrar em contato com toda a base de clientes: R$ 2.842.391,00
-
-Isso implica em um aumento de 2.06 vezes no lucro potencial se o plano for implementado em sua totalidade.
-
-**Plano de Ação 2 - Entrar em contato somente com pessoas que tiveram incidentes com seus veículos.**
-- Lucro ao entrar em contato com 63.835 clientes (50% da base): R$ 5.934.596,00
-- Lucro ao entrar em contato com toda a base de clientes: R$ 2.842.391,00
-
-Isso implica em um aumento de 2.09 vezes no lucro potencial se o plano for implementado em sua totalidade.
-
-**Plano de Ação 3 - Utilizar o Modelo de Machine Learning para ranqueamento.**
-
-O gráfico abaixo ilustra que, ao entrar em contato com os primeiros clientes da lista, a probabilidade de eles adquirirem o seguro é alta, resultando em lucros consideráveis. No entanto, à medida que a lista é explorada mais profundamente, a propensão a adquirir o seguro diminui, o que leva a uma redução na margem de lucro devido ao custo de contato.
-
-![image](https://github.com/TiagoTBarreto/HealthInsurance-CrossSell/assets/137197787/d1b0f776-6601-4d19-9c8f-a8a4bbc9c3f7)
-
-- Lucro ao entrar em contato com os primeiros 55.100 clientes (43% da base): R$ 6.056.576,00
-- Lucro ao entrar em contato com toda a base de clientes: R$ 2.842.391,00
-  
-Isso implica em um aumento de 2.13 vezes no lucro potencial se o plano for implementado em sua totalidade.
-
-
 # 8. O produto final do projeto
-O produto final foi uma planilha do Google Sheets conectada com o modelo de Machine Learning em nuvem. Agora, essa planilha pode ser acessada de qualquer dispositivo compatível com o Google Sheets. 
+Montei uma infraestrutura utilizando serviços AWS:
+![infra](https://github.com/TiagoTBarreto/Insiders/assets/137197787/eeb89d1c-9e56-4d65-a376-473f823e2f2f)
 
-No vídeo abaixo, apresento uma demonstração da planilha, destacando a funcionalidade de predição. Ao clicar em um botão, a planilha retorna uma lista ranqueada com os clientes mais propensos de adquirirem o seguro. Essa abordagem não apenas simplifica o processo, mas também oferece uma experiência intuitiva para usuários de diferentes dispositivos.
 
-![Animação](https://github.com/TiagoTBarreto/HealthInsurance-CrossSell/assets/137197787/246de1c3-a38c-4919-894b-2fbcb5361c25)
-
-# 9. Próximo passos
-Ao embarcar em um segundo ciclo do CRISP-DM para aprimorar ainda mais este projeto, consideraria as seguintes abordagens:
-- Expandir a coleta de dados e informações sobre os clientes para enriquecer ainda mais o conjunto de dados, possibilitando análises mais abrangentes e precisas.
-- Explorar novos modelos de Machine Learning.
-- Integração com o Excel: Levar a praticidade da predição aos usuários do Excel, integrando o sistema de predição diretamente na plataforma.
-- Formulação de Novas Hipóteses: Desenvolver e testar novas hipóteses para gerar insights adicionais para o negócio.
 
