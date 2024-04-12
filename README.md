@@ -187,11 +187,11 @@ Com a utilização do Espaço de Embedding, a explicabilidade do modelo é compr
 
 Com um conjunto de dados de um ano, onde reservei 11 meses para treinamento e validação e 1 mês para testes, os resultados foram os seguintes:
 
--Soma das previsões no 1º mês de teste: $460,855.1
--Soma dos valores reais no 1º mês de teste: $525,803.19
+- Soma das previsões no 1º mês de teste: $460,855.1
+- Soma dos valores reais no 1º mês de teste: $525,803.19
 - Diferença percentual entre previsão e valor real: 12.35% menor que o valor real.
 
-Diante dessa dificuldade em reduzir o erro médio individual, optei por focar na minimização do erro total acumulado. Com isso, determinei um intervalo de faturamento para o próximo mês proveniente dos Insiders, levando em consideração o erro observado:
+Enfrentei uma grande dificuldade em reduzir o erro médio individual, então optei por focar na minimização do erro total acumulado. Com isso, determinei um intervalo de faturamento para o próximo mês proveniente dos Insiders, levando em consideração o erro observado:
 
 - Previsão de faturamento para o próximo mês: $521,493.0
 - Intervalo: Entre $457,077.30 e $585,908.69.
