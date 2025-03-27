@@ -255,17 +255,18 @@ Montei uma infraestrutura utilizando serviços AWS:
 | **Prazo Ponderado Mobly**      |   91,81    |      119,22     |         27,41        |        29,86%          |
 | **Prazo Ponderado Tok**        |   97,72    |      109,72     |         12,00        |        12,28%          |
 
-| PRODUTO               | SHARE DA T&S | Range Expectativa de Ganho de COGS (DE) | Range Expectativa de Ganho de COGS (PARA) | Média Range Ganho COGS | Ganho COGS TT |
-|-----------------------|:------------:|:---------------------------------------:|:----------------------------------------:|:-----------------------:|:-------------:|
-| MUY 3 LUGARES         |     0.76%    |                  10%                   |                   15%                    |           13%           |     0.09%     |
-| MUY 2 LUGARES         |     0.26%    |                  10%                   |                   15%                    |           13%           |     0.03%     |
-| LAW 3 LUGARES         |     0.62%    |                  20%                   |                   25%                    |           23%           |     0.14%     |
-| SOFO SOFÁ-CAMA        |     0.39%    |                  15%                   |                   20%                    |           18%           |     0.07%     |
-| SOFO 2 LUGARES        |     0.20%    |                  15%                   |                   20%                    |           18%           |     0.03%     |
-| SOFO 3 LUGARES        |     0.15%    |                  15%                   |                   20%                    |           18%           |     0.03%     |
-| SOFO MÓDULO CANTO     |     0.14%    |                  15%                   |                   20%                    |           18%           |     0.03%     |
-| SOFO PUFF             |     0.09%    |                  15%                   |                   20%                    |           18%           |     0.01%     |
-| SOFÁ MÓDULO 1 LUGAR   |     0.06%    |                  15%                   |                   20%                    |           18%           |     0.01%     |
-| **Total**             |   **2.67%**  |             **14%**               |             **19%**                |         **17%**         |  **0.43%**    |
+| **Produto**            | **Share T&S** | **Média Ganho COGS** | **Ganho COGS TT** |
+|------------------------|:-------------:|:--------------------:|:-----------------:|
+| **MUY 3 LUGARES**      | 0.76%         | 13%                  | 0.09%             |
+| **MUY 2 LUGARES**      | 0.26%         | 13%                  | 0.03%             |
+| **LAW 3 LUGARES**      | 0.62%         | 23%                  | 0.14%             |
+| **SOFO SOFÁ-CAMA**     | 0.39%         | 18%                  | 0.07%             |
+| **SOFO 2 LUGARES**     | 0.20%         | 18%                  | 0.03%             |
+| **SOFO 3 LUGARES**     | 0.15%         | 18%                  | 0.03%             |
+| **SOFO MÓDULO CANTO**  | 0.14%         | 18%                  | 0.03%             |
+| **SOFO PUFF**          | 0.09%         | 18%                  | 0.01%             |
+| **SOFÁ MÓDULO 1 LUGAR**| 0.06%         | 18%                  | 0.01%             |
+| **Total**              | **2.67%**      | **17%**              | **0.43%**         |
+
 
 
