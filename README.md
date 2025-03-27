@@ -221,3 +221,6 @@ Montei uma infraestrutura utilizando serviços AWS:
 - O Banco de Dados Postgres sustenta um Dashboard, fornecendo informações atualizadas e insights em tempo real para os usuários.
 
 
+| Mês          | Reajuste Tok | Reajuste Setor |
+|--------------|--------------|----------------|
+| Janeiro/Fev. |  0,22%       |  0,34%         |
