@@ -266,6 +266,6 @@ Montei uma infraestrutura utilizando serviços AWS:
 | SOFO MÓDULO CANTO     |     0.14%    |                  15%                   |                   20%                    |           18%           |     0.03%     |
 | SOFO PUFF             |     0.09%    |                  15%                   |                   20%                    |           18%           |     0.01%     |
 | SOFÁ MÓDULO 1 LUGAR   |     0.06%    |                  15%                   |                   20%                    |           18%           |     0.01%     |
-| **Total**             |   **2.47%**  |             **10% a 25%**               |             **10% a 32%**                |         **18%**         |  **0.43%**    |
+| **Total**             |   **2.67%**  |             **14%**               |             **19%**                |         **17%**         |  **0.43%**    |
 
 
