@@ -224,3 +224,21 @@ Montei uma infraestrutura utilizando serviços AWS:
 | Mês          | Reajuste Tok | Reajuste Setor |
 |--------------|:--------------:|:----------------:|
 | Janeiro/Fev. |  0,22%       |  0,34%         |
+
+<table>
+  <thead style="background-color: #D3D3D3;">
+    <tr>
+      <th>Mês</th>
+      <th>Reajuste Tok</th>
+      <th>Reajuste Setor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Janeiro/Fev.</td>
+      <td>0,22%</td>
+      <td>0,34%</td>
+    </tr>
+  </tbody>
+</table>
+
