@@ -249,7 +249,7 @@ Montei uma infraestrutura utilizando serviços AWS:
 | **Total**               |          **46**       |    **7,11%**    |      **212**         |
 
 
-| **Prazo de Pagamento**         |  **Hoje**  | **Expectativa** | **Aumento Absoluto** | **Aumento Percentual** |
+| **Prazo de Pagamento**         |  **Hoje**  | **Expectativa** | **Expectativa Aumento Absoluto** | **Expectativa Aumento Percentual** |
 |------------------------------|:----------:|:---------------:|:--------------------:|:----------------------:|
 | **Prazo Ponderado Toky**       |   96,00    |      112,49     |         16,49        |        17,18%          |
 | **Prazo Ponderado Mobly**      |   91,81    |      119,22     |         27,41        |        29,86%          |
