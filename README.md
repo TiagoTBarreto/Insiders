@@ -263,7 +263,7 @@ Montei uma infraestrutura utilizando serviços AWS:
 | **Total**             | **9**                  | **2.67%**     | **17%**              | **0.43%**         |
 
 
-| Categoria                     |   Jan   |   Feb   |   Mar   |   Apr   |   May   |   Jun   |   Jul   |   Aug   |   Sep   |   Oct   |   Nov   |   Dec   |  2025 FY  |
+| Categoria                     |   Jan   |   Fev   |   Mar   |   Abril   |   Maio   |   Jun   |   Jul   |   Ago   |   Set   |   Out   |   Nov   |   Dez   |  2025   |
 |--------------------------------|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:-------:|:---------:|
 | **T&S (Total)**               | 32.82M  | 32.03M  | 32.03M  | 28.26M  | 28.48M  | 29.32M  | 31.95M  | 37.36M  | 29.82M  | 29.25M  | 42.40M  | 37.07M  | 390.79M   |
 | **Ganhos Representante**       |    0    |  1.70K  |  3.39K  | 10.03K  | 17.20K  | 17.71K  | 18.47K  | 20.13K  | 23.54K  | 18.79K  | 18.43K  | 26.71K  | 176.10K   |
