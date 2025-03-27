@@ -242,3 +242,8 @@ Montei uma infraestrutura utilizando serviços AWS:
   </tbody>
 </table>
 
+| Categoria               | Modelos Selecionados | Share Impactado | Variações de Modelos |
+|-------------------------|:---------------------:|:---------------:|:--------------------:|
+| Fornecedores Nacionais  |          36           |      5,13%      |         155          |
+| Importados              |          10           |      1,98%      |         57           |
+| **Total**               |          **46**       |    **7,11%**    |      **212**         |
