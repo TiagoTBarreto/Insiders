@@ -223,4 +223,4 @@ Montei uma infraestrutura utilizando serviços AWS:
 
 | Mês          | Reajuste Tok | Reajuste Setor |
 |--------------|:--------------:|:----------------:|
-| Janeiro/Fev. |:  0,22%       :|:  0,34%         :|
+| Janeiro/Fev. |  0,22%       |  0,34%         |
